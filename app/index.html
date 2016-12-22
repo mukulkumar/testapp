@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular Test App</title>
+	<base href="/testapp/app/">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body ng-app="testApp">
+<div class="container">
+
+	<!-- Static navbar -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+
+				<a class="navbar-brand" href="#">Test App</a>
+			</div>
+		</div><!--/.container-fluid -->
+	</nav>
+
+	<!-- Main component for a primary marketing message or call to action -->
+	<div class="jumbotron">
+		<h1 class="text-center">Banner</h1>
+	</div>
+
+	<!-- ANGULAR DYNAMIC CONTENT -->
+	<div ng-view></div>
+
+</div> <!-- /container -->
+
+<!-- JS -->
+<script src="../libs/angular/angular.js"></script>
+<script src="../libs/angular-route/angular-route.min.js"></script>
+
+<!-- ANGULAR CUSTOM -->
+<script src="scripts/appRoutes.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/MainCtrl.js"></script>
+<script src="scripts/appDirectives.js"></script>
+</body>
+</html>

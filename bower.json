@@ -1,0 +1,14 @@
+{
+  "name": "testapp",
+  "authors": [
+    "Mukul Kumar <mukul.05ind@gmail.com>"
+  ],
+  "description": "Test Application",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "bootstrap": "^3.3.7",
+    "angular-route": "^1.6.0"
+  }
+}
